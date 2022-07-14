@@ -1,11 +1,11 @@
 {% if values.enableModule1 %}
 This is module1
-is_ibd = ${{ parameters.isIBD }}
+is_ibd = ${{ values.isIBD }}
 {% endif %}
 
 {% if values.enableModule2 %}
 This is module2
-is_ibd = ${{ parameters.isIBD }}
+is_ibd = ${{ values.isIBD }}
 {% endif %}
 
-account_to_whitelist_for_bucket = ${{ parameters.listOfAccountToAllowBucket }}
+account_to_whitelist_for_bucket = ${{ values.listOfAccountToAllowBucket }}

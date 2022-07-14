@@ -69,8 +69,8 @@ spec:
         copyWithoutRender:
           - .github/workflows/*
         values:
-          enableModule1: ${{ parameters.enbleModule1 }}
-          enableModule2: ${{ parameters.enbleModule2 }}
+          enableModule1: ${{ parameters.enableModule1 }}
+          enableModule2: ${{ parameters.enableModule2 }}
           isIBD: ${{ parameters.isIBD }}
           listOfAccountToAllowBucket: ${{ parameters.listOfAccountToAllowBucket }}
           component_id: ${{ parameters.component_id }}
